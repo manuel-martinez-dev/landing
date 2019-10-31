@@ -1,0 +1,93 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Space+Mono:400,700&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4, p {
+  font-family: 'Space Mono', monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.banner {
+  background-image: url(../images/aaron-burden-U3_fHfuZCQo-unsplash.jpg);
+  background-size: cover;
+  padding: 200px 0;
+}
+
+.banner h1 {
+  text-shadow: 2px 11px 3px rgba(0,0,0,0.3);
+}
+
+.banner p {
+  font-size: 20px;
+  margin-bottom: 88px;
+  opacity: 0.8;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.main-btn{
+  background-color: #938ff5;
+  border-radius: 18px;
+  border: 1px solid #d7957b;
+  color: #000000;
+  padding: 15px 25px;
+  opacity: 1;
+}
+
+.main-btn:hover {
+  color: white;
+  cursor: grabbing;
+  opacity: 1;
+  text-decoration: none;
+}
+
+
+.middle-text {
+  text-align: center;
+}
+
+.card {
+  border: 1px solid rgb(230,230,230);
+  border-radius: 15px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  padding: 18px;
+  text-align: center;
+  width: 200px;
+}
+
+.card img {
+  height: 100px;
+}
+
+.card p {
+  opacity: 0.7;
+}
+
+.center-cards{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+.footer{
+  text-align: center;
+  padding: 60px;
+}
+
